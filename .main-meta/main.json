@@ -5,25 +5,25 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-constant-current-driver-using-opamp-mplab",
         "version": "1.0.0",
-        "displayName": "AVR128DB48 constant current driver using opamp mplab",
+        "displayName": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-constant-current-driver-using-opamp-mplab",
-        "shortDescription": "",
+        "shortDescription": "This MPLAB X bare metal example in Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral (AN3632), shows how to use the OPAMP to implement a constant-current driver using just one external resistor. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control.",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.40"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": ""
+                "semverRange": "^2.20"
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.4.75"
         },
-        "configurator": {
-            "name": "",
+		"configurator": {
+        	"name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -36,25 +36,34 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
-            [
-                "Peripherals",
-                ""
+			[
+               "Peripherals", "OPAMP"
             ],
             [
-                "Peripherals",
-                ""
-            ]
+               "Peripherals", "DAC"
+            ],            			
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]       
         ],
         "peripherals": [
-            "",
-            ""
+            "OPAMP", "DAC"
         ],
         "keywords": [
-            "",
-            ""
+			"Analog Signal Conditioning",
+			"Operational Amplifier",
+			"Op Amp",
+			"Resistor Ladder",
+			"Constant Current",
+			"Current Driver",
+			"Digital-To-Analog Converter",
+			"Low BOM",
+			"CIP",
+			"AVR-DB",
+			"AVRDB",
+			"constant-current-driver-using-opamp"
         ],
         "additionalData": {
             "longDescription": {
